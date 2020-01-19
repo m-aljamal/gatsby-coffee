@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
-import Info from "../components/Home/Info"
+import Info from '../components/Home/Info'
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
