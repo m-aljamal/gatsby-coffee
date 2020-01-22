@@ -9,6 +9,13 @@ module.exports = {
   },
   plugins: [
     {
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+        apiKey: process.env.SNIPCART_API_KEY,
+        autopop:true
+			}
+		},
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACEID,
